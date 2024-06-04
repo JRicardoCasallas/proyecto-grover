@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background-color: aqua;
+    background-color: rgb(132, 255, 0);
     border: 2px solid black;
     width: 1170px;
     height: 67px;
@@ -16,14 +16,43 @@ header{
     justify-content: space-between;
 }
 .caja1{
-    background-color: yellow;
+   /* background-color: rgb(203, 27, 89);*/
+   
 }
 .caja2{
-    background-color: rgb(59, 25, 212);
+    /*background-color: rgb(203, 27, 89);*/
+    width: 154px;
+    height: 41.58px;
+    margin-top: 14.5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .caja3{
-    background-color: rgb(212, 25, 112);
+    /*background-color: rgb(212, 25, 168);*/
+    width: 312px;
+    height: 24px;
+    margin-top: 27.4px;
 }
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: blue;
+    font-size: 16px;
+}
+
+a:hover{
+    color: red;
+    font-size: 26px;
+  
+
+}
+
 .span1{
     background-color: blueviolet;
 }
