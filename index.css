@@ -4,7 +4,7 @@ body{
     padding: 1444;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {  /* @media para pantalla de escritorio*/ 
 
     body{
         background-color: aqua;
@@ -12,7 +12,14 @@ body{
     
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 520px) {/* @media para pantalla de table*/ 
+
+    body{
+        background-color: brown;
+    }
+    
+}
+@media screen and (max-width: 300px) {/* @media para pantalla de table*/ 
 
     body{
         background-color: brown;
