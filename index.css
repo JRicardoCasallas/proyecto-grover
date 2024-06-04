@@ -4,6 +4,10 @@ body{
     padding: 1444;
 }
 
+header{
+    background-color: aqua;
+}
+
 @media screen and (max-width: 768px) {  /* @media para pantalla de escritorio*/ 
 
     body{
