@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(162, 142, 142);
+    border: 2px solid black;
+    padding: 1444;
+}
+
+@media screen and (max-width: 768px) {
+
+    body{
+        background-color: aqua;
+    }
+    
+}
+
+@media screen and (max-width: 520px) {
+
+    body{
+        background-color: brown;
+    }
+    
+}
